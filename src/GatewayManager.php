@@ -11,6 +11,9 @@ class GatewayManager
      */
     protected $app;
 
+    /** @var GatewayFactory  */
+    protected $factory;
+
     /**
      * The registered gateways
      */
